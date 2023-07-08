@@ -1,0 +1,137 @@
+.layout__left-sidebar-container {
+    display: flex;
+    justify-content: flex-end;
+    gap: 30px;
+}
+
+.layout__left-sidebar {
+    padding: 5px 0 0 0;
+    position: fixed;
+    height: 100vh;
+    width: 230px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-content: flex-end;
+}
+
+.sidebarmenu {
+    overflow-y: auto;
+    margin-right: 5px;
+}
+
+.sidebarmenu ul {
+    list-style: none;
+    display: flex;
+    gap: 1px;
+    flex-direction: column;
+}
+
+.sidebarmenu ul li {
+    width: fit-content;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    cursor: pointer;
+    padding: 10px;
+    border-radius: 15px
+}
+
+.sidebarmenu ul li:hover {
+    background-color: rgb(230, 233, 225);
+}
+
+.sidebarmenu ul li i {
+    width: 35px;
+    font-size: 35px;
+}
+
+.sidebarmenu ul li a {
+    font-size: 1.3rem;
+}
+
+.tweet-btn {
+    margin-top: 10px;
+    border-radius: 30px !important;
+    padding: 10px 60px !important;
+    display: flex;
+    justify-content: center;
+    background-color: #52AFEE;
+}
+
+.tweet-btn a {
+    color: white;
+    font-size: 1.2rem;
+}
+
+.tweet-btn:hover {
+    background-color: #3ea1e2 !important;
+}
+
+.tweet-btn-mobile {
+    /* background-color: #3ea1e2;
+    color: white; */
+}
+
+/* 
+.tweet-btn-mobile:hover {
+    background-color: #3ea1e2 !important;
+} */
+
+.tweet-btn i {
+    width: 30px;
+}
+
+.tweet-btn-mobile {
+    display: none !important;
+}
+
+@media (max-width: 1210px) {
+    .sidebarmenu {
+        margin-right: 0 !important;
+    }
+
+    .layout__left-sidebar {
+        width: 100px;
+    }
+
+    .nav-text {
+        display: none;
+    }
+
+    .tweet-btn {
+        display: none !important;
+    }
+
+    .tweet-btn-mobile {
+        display: block !important;
+    }
+}
+
+@media (max-width: 650px) {
+
+    .sidebarmenu {
+        margin-right: 0 !;
+    }
+
+    .layout__left-sidebar {
+        width: 50px;
+    }
+
+
+    .sidebarmenu {
+        margin-right: -32px !important;
+    }
+
+    .tweet-btn-mobile {
+        width: 30px !important;
+        padding: 0px !important;
+        margin-left: 7px;
+        color: #3ea1e2;
+
+    }
+
+    .tweet-btn-mobile i {
+        /* font-size: !important; */
+    }
+}

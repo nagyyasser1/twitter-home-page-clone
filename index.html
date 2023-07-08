@@ -1,15 +1,137 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link href="https://fonts.googleapis.com/icon?family=Material+Icons|Material+Icons+Outlined"
-    rel="stylesheet">
-    <link rel="stylesheet" href="style.css">
-    <title>Switter</title>
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons|Material+Icons+Outlined" rel="stylesheet">
+    <link rel="stylesheet"
+        href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@48,400,0,0" />
+    <link
+        href="https://fonts.googleapis.com/css?family=Material+Icons|Material+Icons+Outlined|Material+Icons+Two+Tone|Material+Icons+Round|Material+Icons+Sharp"
+        rel="stylesheet">
+    <link rel="stylesheet" href="css/golbal.css">
+    <link rel="stylesheet" href="css/blocks/layout.css">
+    <link rel="stylesheet" href="css/blocks/layout-sidebar.css">
+    <link rel="stylesheet" href="css/blocks/layout-main.css">
+    <link rel="stylesheet" href="css/blocks/layout-right.css">
+    <link rel="stylesheet" href="css/blocks/brand.css">
+    <link rel="stylesheet" href="css/blocks/mainprofile.css">
+    <title>Twitter</title>
 </head>
-<body>
 
+<body>
+    <div class="layout">
+        <div class="layout__left-sidebar-container">
+            <div class="layout__left-sidebar">
+                <nav class="sidebarmenu">
+                    <ul>
+                        <li class="brand">
+                            <img src="./svg/twitter.svg">
+                        </li>
+                        <li>
+                            <i class="material-icons">home</i>
+                            <a href="#" class="nav-text">Home</a>
+                        </li>
+                        <li>
+                            <i class="material-icons">search</i>
+                            <a href="#" class="nav-text">Explore</a>
+                        </li>
+                        <li>
+                            <i class="material-icons-outlined">notifications</i>
+                            <a href="#" class="nav-text">Notifications</a>
+                        </li>
+                        <li>
+                            <i class="material-icons-outlined">messages</i>
+                            <a href="#" class="nav-text">Messages</a>
+                        </li>
+                        <li>
+                            <i class="material-icons">lists</i>
+                            <a href="#" class="nav-text">Lists</a>
+                        </li>
+                        <li>
+                            <span class="material-symbols-outlined">
+                                bookmark
+                            </span>
+                            <!-- <i class="material-icons-outlined">bookmark</i> -->
+                            <a href="#" class="nav-text">Bookmark</a>
+                        </li>
+                        <li>
+                            <i class="material-icons-outlined">verified</i>
+                            <a href="#" class="nav-text">Verified</a>
+                        </li>
+                        <li>
+                            <i class="material-icons-outlined">person</i>
+                            <a href="#" class="nav-text">Profile</a>
+                        </li>
+                        <li>
+                            <i class="material-icons-outlined">more</i>
+                            <a href="#" class="nav-text">More</a>
+                        </li>
+                        <li class="tweet-btn">
+                            <a href="#" class="nav-text">Tweet</a>
+                        </li>
+                        <li class="tweet-btn-mobile">
+                            <i class="material-symbols-outlined">
+                                history_edu
+                            </i>
+                        </li>
+                    </ul>
+                </nav>
+                <div class="main-profile">
+                    <div class="main-profile__content">
+                        <div class="main-profile__content-left">
+                            <i class="material-icons">person</i>
+                            <div>
+                                <p>nagyyasser</p>
+                                <span>@nagyyasser2</span>
+                            </div>
+                        </div>
+                        <div class="main-profile__content-right">
+                            <i class="material-icons">more_horiz</i>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="layout__main">
+            <div class="main-header">
+                <div class="main-header-head">
+                    <h3>Home</h3>
+                </div>
+                <div class="main-header-nav-link">For you</div>
+                <div class="main-header-nav-link">Following</div>
+            </div>
+            <div class="main-content">
+                <div class="post post1"></div>
+                <div class="post post2"></div>
+                <div class="post post3"></div>
+                <div class="post post4"></div>
+                <div class="post post5"></div>
+                <div class="post post6"></div>
+                <div class="post post7"></div>
+            </div>
+
+        </div>
+        <div class="layout__right-sidebar-container">
+            <div class="layout__right-sidebar">
+                <div class="layout__right-sidebar-form">
+                    <button>
+                        <i class="material-icons-outlined">search </i>
+                    </button>
+                    <input type="text" placeholder="Search Twitter">
+                </div>
+
+                <div class="layout__right-sidebar-announce">
+
+                </div>
+                <div class="layout__right-sidebar-whatishappening">
+
+                </div>
+            </div>
+        </div>
+    </div>
 </body>
+
 </html>
