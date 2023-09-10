@@ -20,8 +20,8 @@
 .tweet__textarea {
     padding-left: 10px;
     width: 100%;
-    min-height: 50px;
-    font-size: 1.5rem;
+    min-height: 30px;
+    font-size: 1.3rem;
     outline: none;
     border: none;
     resize: none;

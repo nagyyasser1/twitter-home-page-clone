@@ -50,8 +50,10 @@
     text-align: right;
     font-family: 'Cairo', sans-serif;
     font-family: 'Josefin Sans', sans-serif;
+    font-weight: 500;
     margin-top: 20px;
     margin-bottom: 20px;
+    font-weight: 400;
 }
 
 .post__img {}
@@ -68,6 +70,12 @@
     justify-content: space-between;
 }
 
+
+.post__controlls div {
+    display: flex;
+    align-items: center;
+}
+
 .post__controlls-icon {
     padding: 5px;
     width: 30px;
@@ -76,4 +84,20 @@
 
 .post__controlls-icon:hover {
     background-color: #e7e7e7;
+}
+
+.author__info {
+    display: flex;
+    gap: 5px;
+    align-items: center;
+}
+
+.author__info h4 {
+    font-weight: 400;
+}
+
+.author__info span {
+    font-size: 0.9rem;
+    color: #8d8d8d;
+    font-weight: 100;
 }
