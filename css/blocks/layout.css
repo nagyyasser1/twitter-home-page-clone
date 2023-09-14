@@ -1,6 +1,6 @@
 .layout {
     display: grid;
-    grid-template-columns: 300px 550px 375px;
+    grid-template-columns: 300px 1fr 0.7fr;
     width: 95%;
     max-width: 1324px;
     margin: 0 auto;
@@ -37,7 +37,7 @@
 
 @media (max-width: 1210px) {
     .layout {
-        grid-template-columns: 60px 1fr 350px;
+        grid-template-columns: 60px 1fr 0.7fr;
         width: 95%;
     }
 
