@@ -27,7 +27,7 @@
 
 .layout__right-sidebar {
     position: sticky;
-    top: -500px;
+    top: -485px;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
@@ -38,7 +38,7 @@
 @media (max-width: 1210px) {
     .layout {
         grid-template-columns: 60px 1fr 350px;
-        width: 90%;
+        width: 95%;
     }
 
     .layout__left-sidebar {
